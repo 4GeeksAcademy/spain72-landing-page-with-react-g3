@@ -1,12 +1,14 @@
 import React from "react";
 import { Jumbotron } from "./jumbotron";
 import { Card } from "./Card.jsx";
+import { Footer } from "./Footer.jsx";
 
 //include images into your bundle
 import playstation from "../../img/Playstation2.png"
 import nintendo from "../../img/Nintendo.png"
 import xbox from "../../img/X-box.png"
 import steam from "../../img/Steam.png"
+import { Footer } from "./Footer.jsx";
 //create your first component
 const Home = () => {
 
@@ -23,6 +25,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };
