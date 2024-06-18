@@ -7,7 +7,7 @@ export const Card = (props) => {
             <div className="card">
                 <img src={props.image} className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{props.tittle}</h5>
+                    <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
                     <a href="#" className="btn btn-primary">{props.textButton}</a>
                 </div>
@@ -19,7 +19,7 @@ export const Card = (props) => {
 }
 
 Card.propTypes = {
-    tittle: propTypes.string,
+    title: propTypes.string,
     description: propTypes.string,
     textButton: propTypes.string,
     image: propTypes.string
