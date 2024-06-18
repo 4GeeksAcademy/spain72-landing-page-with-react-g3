@@ -1,3 +1,4 @@
+import React from "react";
 export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark mb-3">
